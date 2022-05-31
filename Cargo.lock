@@ -278,6 +278,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "dao-in-15"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-contract-tools",
+ "near-sdk",
+]
+
+[[package]]
 name = "derive_more"
 version = "0.99.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -621,15 +630,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "near-smart-contract-rust-template"
-version = "0.1.0"
-dependencies = [
- "near-contract-standards",
- "near-contract-tools",
- "near-sdk",
 ]
 
 [[package]]

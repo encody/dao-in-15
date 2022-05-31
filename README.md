@@ -1,6 +1,8 @@
-# NEAR Smart Contract Rust Template
+# DAO in 15
 
-Project structure for writing smart contracts in Rust for NEAR Protocol
+Dead simple DAO-like smart contract that can be explained (and maybe even written) in 15 minutes.
+
+Implements trivial membership, proposals, and voting.
 
 # Required Software
 

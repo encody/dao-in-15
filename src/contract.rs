@@ -76,6 +76,10 @@ impl Contract {
         self.proposals.get(proposal_id)
     }
 
+    pub fn get_members(&self) -> Vec<AccountId> {
+        self.members.iter().collect()
+    }
+
     pub fn add_member(&mut self, member_id: AccountId) {
         require!(
             env::predecessor_account_id() == self.owner_id,
